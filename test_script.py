@@ -14,6 +14,8 @@ import torch.utils.data.distributed
 
 import sys
 sys.path.append("/content/vision/")
+print("updated though")
+sys.path.append("../../")
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 import torchvision.models as models
