@@ -4,6 +4,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import torch.utils.model_zoo as model_zoo
 
+
 USE_CUDA = False if torch.cuda.is_available() else False
 __all__ = ['capsnet', 'CapsNet']
 
